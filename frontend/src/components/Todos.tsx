@@ -53,7 +53,7 @@ export class Todos extends React.PureComponent<TodosProps, TodosState> {
       })
       this.setState({
         todos: [...this.state.todos, newTodo],
-        newTodoName: ''
+        newTodoName: this.state.newTodoName
       })
     } catch {
       alert('Todo creation failed')
