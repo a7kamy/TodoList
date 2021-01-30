@@ -19,7 +19,7 @@ async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
 
     logger.info(`create new user with id : ${userId}`)
 
-    const item = createTodo(newTodo, userId);
+    const item = await createTodo(newTodo, userId);
     return {
       statusCode: 201,
       body: JSON.stringify({
