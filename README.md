@@ -46,11 +46,11 @@ npm run start
 API Endpoint
 
 ```
-https://2z9sdic1hj.execute-api.us-east-1.amazonaws.com/dev/todos
+https://e1cepbmjm0.execute-api.us-east-1.amazonaws.com/dev/todos
 ```
 
 Postman Collection
 
 ```
-Udacity Cloud developer capstone.postman_collection.json
+Final Project.postman_collection.json
 ```
